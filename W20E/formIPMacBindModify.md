@@ -14,7 +14,7 @@ https://www.tenda.com.cn/download/detail-2707.html
 
 
 
-## setStaticRoute
+## modifyIpMacBind
 
 ### detail
 
