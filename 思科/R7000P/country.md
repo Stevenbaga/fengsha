@@ -74,4 +74,4 @@ Start frimware through QEMU system or other methods (real device)
 Use the default username and password to login web.
 Execute the poc script POC_for_formSystemCheck.py as follows:
 ```
-python3 POC_for_formSystemCheck.py 192.168.1.1
+python3 POC_for_country.py 192.168.1.1
