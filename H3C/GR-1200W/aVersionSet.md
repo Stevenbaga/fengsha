@@ -1,7 +1,13 @@
 ### Affected product
 
 ```
-H3C GR-1200W
+H3C GR-1200W  MiniGRW1A0V100R006
+```
+
+### Firmware
+
+```
+https://www.h3c.com/cn/d_202102/1383837_30005_0.htm
 ```
 In function sub_4ACC30,the content obtained by the program from the parameter "param" is passed to v2 .Then the v2 is directly copied into the v3 stack through the strcpy function.
 There is no size check, so there is a stack overflow vulnerability.The attacker can easily perform a Deny of Service Attack or Remote Code 
